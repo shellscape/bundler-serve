@@ -11,7 +11,7 @@ import {
 import { ServerOptions as HttpsServerOptions} from 'https';
 import { ZlibOptions } from 'zlib';
 
-declare module 'webpack-plugin-serve' {
+declare module 'bundler-serve' {
   interface CompressOptions extends ZlibOptions {
     filter?: (content_type: string) => boolean;
     threshold?: number;
@@ -58,7 +58,7 @@ declare module 'webpack-plugin-serve' {
     four0four: (fn?: (ctx: Koa.Context) => void) => void;
   }
 
-  export interface WebpackPluginServeOptions {
+  export interface BundlerServeOptions {
     client?: {
       address: string;
     };
@@ -84,7 +84,7 @@ declare module 'webpack-plugin-serve' {
     status?: boolean;
   }
 
-  export class WebpackPluginServe {
-    constructor(opts?: WebpackPluginServeOptions);
+  export class BundlerServe {
+    constructor(opts?: BundlerServeOptions);
   }
 }

@@ -1,4 +1,4 @@
-## Contributing in webpack-plugin-serve
+## Contributing in bundler-serve
 
 We 💛 contributions! The rules for contributing to this org are few:
 

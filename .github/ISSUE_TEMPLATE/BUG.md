@@ -14,10 +14,9 @@ about: Something went awry and you'd like to tell us about it.
   👉🏽 Need help or support? Open a SUPPORT issue instead.
 -->
 
-- Webpack Version:
 - Operating System (or Browser):
 - Node Version:
-- webpack-plugin-dev Version:
+- bundler-serve Version:
 
 ### How Do We Reproduce?
 
